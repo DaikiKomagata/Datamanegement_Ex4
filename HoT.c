@@ -22,8 +22,8 @@ int main(void) {
     }
     printf("Heads; %d, Tails: %d\n",k,l);
     if(k>l){
-        printf("You won\n");
+        printf("%s won\n",name);
     }
-    else printf("You lost\n");
+    else printf("%s lose\n",name);
     return 0;
 }
