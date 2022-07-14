@@ -2,6 +2,11 @@
 #include<stdlib.h>
 
 int main(void) {
+    char name[100];
+    printf("Who are you?\n>");
+    scanf("%s",name);
+    printf("Hello %s\n",name);
+    
     int a,k=0,l=0;
     printf("Tossing a coin...\n");
     for(int i = 1; i <= 3; i++) {
