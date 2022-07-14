@@ -16,5 +16,9 @@ int main(void) {
         }
     }
     printf("Heads; %d, Tails: %d\n",k,l);
+    if(k>l){
+        printf("You won\n");
+    }
+    else printf("You lost\n");
     return 0;
 }
